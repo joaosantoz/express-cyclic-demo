@@ -3,17 +3,39 @@
   <head>
     <meta charset=utf-8>
     <title>Cyclic: Hello World</title>
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   </head>
   <body>
-    <div id="hello-wrapper">
-      <div id="hello" class="typewriter">
-        Hello World
+    <div id="particles-js"></div>
+
+    <main class="main">
+      <div class="splash">
+        <h1 class="splash-text">
+          <span class="text-wrapper">
+            <span class="letters">powered by</span>
+          </span>
+        </h1>
+        <img class="splash-logo" src="assets/images/cyclic.svg" alt="cylic"/>
       </div>
-      <div id="world">
-        🌎
-      </div>
-    </div>
+
+      <h1 class="hello">
+        <span class="text-wrapper">
+          <span class="letters">Hello, World!</span>
+        </span>
+      </h1>
+      <h2 class="powered">
+        <a href="https://www.cyclic.sh" target="_blank" class="cyclic">powered by
+          <img class="logo" src="assets/images/cyclic.svg" alt="cylic"/>
+        </a>
+      </h2>
+
+      <img class="globe" src="assets/images/globe.png" alt="globe"/>
+    </main>
+
+    <script src="assets/js/anime.min.js"></script>
+    <script src="assets/js/particles-config.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
