@@ -91,12 +91,12 @@ canvas {
 
 /* Splash screen */
 .splash {
-    height: 0;
-    width: 0;
+    height: 100vh;
+    width: 100vw;
     background: #000;
     z-index: 999;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 0;
 }
 
 .splash-text {
@@ -137,9 +137,10 @@ canvas {
 .splash-logo {
     position: absolute;
     top: 55%;
-    left: -20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     max-width: 300px;
+    opacity: 0;
 }
 
 .globe {
